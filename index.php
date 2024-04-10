@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	</head>
+	
+	<body>
+		<form action="script.php" method=POST>
+			<div class="row" align=center>
+				<div class="col-12">
+					<h3>English Grammar Test</h3>
+				</div>
+				<div class="col-12">
+					<p>Options: past simple, present simple, future simple, past perfect, present perfect, future perfect, past continuous, present continuous, future continuous, past perfect continuous, present perfect continuous, future perfect continuous</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-6">
+					<h5>I had an argument with my friend last night.</h5>
+				</div>
+				
+				<div class="col-6">
+					<input type="text" name="i1"  />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>I have been promoted at work recently.</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i2"  />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>What have I done ?</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i3"  />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>Do you know if she will be there ?</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i4"  />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>I am doing something truly wonderful: base jumping !</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i5"  />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>He had been driving a car since morning.</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i6"  />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>He will get a new car to replace his old one.</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i7"  />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>They were climbing this tree earlier.</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i8"  />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>By the end of the year, he will have driven his new motorbike.</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i9" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<h5>They will be driving as soon as possible.</h5>
+				</div>
+			
+				<div class="col-6">
+					<input type="text" name="i10" />
+				</div>
+			</div>
+			<br>
+			<div align="center">
+				<input type = submit name="Valider" />
+			</div>
+		</form>
+	</body>
+</html>
